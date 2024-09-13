@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticket generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="middle">Fun Museum</div>
+        <hr>
+        <div id="detail">
+            <h3 class="sechead">Enter your details to book ticket</h3>
+            <div class="formcontainer">
+                <form id="form">
+                    <div>
+                        <input type="text" id="name" placeholder="Enter your Name" required class="space">
+                    </div>
+                    <div>
+                        <input type="number" id="number" placeholder="Enter your Mobile Num." required class="space">
+                    </div>
+                    <div>
+                        <input type="email" id="email" placeholder="Enter your email" required class="space">
+                    </div>
+                    <div>
+                        <input type="number" id="age" placeholder="Enter your age" required class="space">
+                    </div>
+                    <div>
+                        <input type="text" id="palce" placeholder="Enter your location" required class="space">
+                    </div>
+                    <div class="visitdate">
+                        <h3>Choose visiting date</h3>
+                        <input type="date" id="date" required class="space">
+                    </div>
+                    <div class="genderselector">
+                        <div>
+                            <h3>Select Gender:</h3>
+                        </div>
+                        <div><input type="radio" name="gender" value="male" required> Male</div>
+                        <div><input type="radio" name="gender" value="female" required> Female</div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" id="submit" value="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section id="second">
+            <div class="middle1">Fun Museum Ticket</div>
+            <hr>
+            <div class="pic"> <img class="bich" src="images/museum-svgrepo-com.svg" alt=""></div>
+            <div class="finalpreview">
+                <div class="right">
+                    <div class="target">
+                        <p>Name:</p>
+                        <p id="filled1"></p>
+                    </div>
+                    <div class="target">
+                        <p>Email:</p>
+                        <p id="filled2"></p>
+    
+                    </div>
+                    <!-- <div class="target">
+                        <p>Phone:</p>
+                        <p id="filled3"></p>
+                    </div> -->
+                    <div class="target">
+                        <p>Gender:</p>
+                        <p id="filled4"></p>
+                    </div>
+                    <div class="target">
+                        <p>Age:</p>
+                        <p id="filled5"></p>
+                    </div>
+                    <div class="target">
+                        <p>Visitiing date:</p>
+                        <p id="filled6"></p>
+                    </div>
+                    <div class="target">
+                        <button id="edit"> Edit</button>
+                        <button id="buy">Buy</button>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="ticketwale">
+                        <h3>Scan Qr to Enter Inside</h3>
+                        <!-- <p id="ticketid"></p> -->
+                        <div id="qrcontainer"><img id="qrcode" src="" alt=""></div>
+                    </div>
+                    <!-- <div class="validity">
+                        <h3>validity:</h3>
+                        <p id="validity"></p>
+                    </div> -->
+    
+                </div>
+    
+            </div>
+        </section>
+    </main>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>

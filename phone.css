@@ -1,0 +1,87 @@
+@media only screen and (max-width: 432px) {
+    body{
+        font-size: 0.9rem;
+    }
+
+    
+.formcontainer{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 90vh;
+    scroll-behavior:auto;
+    margin-top: 0px;
+
+}
+.formcontainer div{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin: 0;
+ 
+ }
+ .genderselector{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15px;
+}
+.sechead{
+    font-family: "SUSE", sans-serif;
+    text-align: center;
+    font-size:1.2rem;
+    margin-top: 0;
+}
+
+
+
+
+#second {
+    width: 80vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    display: none;
+    margin-top: 20px;
+    background-color:#d7ded547;
+
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin: 10px 50px; */
+    margin: 10px 0;
+}
+.right div{
+    font-size: 0.7rem;
+    font-family: "SUSE", sans-serif;
+}
+.left{
+    font-size: 0.5rem;
+    font-family: "SUSE", sans-serif;
+}
+
+.finalpreview {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+
+}
+
+.pic img {
+    height: 30px;
+
+
+}
+.ticketwale img{
+    height: 100px;
+}
+
+
+
+}
